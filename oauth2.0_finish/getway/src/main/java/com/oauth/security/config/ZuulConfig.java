@@ -10,8 +10,8 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 /**
  * @ClassName ZuulConfig
- * @Description
- * @Author
+ * @Description 将filter配置到spring容器
+ * @Author Zesysterm
  * @Date 2020/5/11 22:21
  * @Version 1.0
  **/

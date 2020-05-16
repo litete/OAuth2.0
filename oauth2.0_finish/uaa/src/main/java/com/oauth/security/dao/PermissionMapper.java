@@ -8,8 +8,8 @@ import java.util.List;
 
 /**
  * @ClassName PermissionMapper
- * @Description
- * @Author 戴书博
+ * @Description 查询对应用户的权限信息。
+ * @Author Zesysterm
  * @Date 2020/5/4 14:22
  * @Version 1.0
  **/

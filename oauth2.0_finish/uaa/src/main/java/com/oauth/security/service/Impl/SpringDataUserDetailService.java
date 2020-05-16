@@ -16,8 +16,8 @@ import java.util.List;
 
 /**
  * @ClassName SpringDataUserDetailService
- * @Description
- * @Author 戴书博
+ * @Description UserDetailsService的实现类重写loadUserByUsername方法查询用户信息，然后封装成UserDetails。
+ * @Author Zesysterm
  * @Date 2020/5/4 8:59
  * @Version 1.0
  **/
@@ -43,6 +43,7 @@ public class SpringDataUserDetailService implements UserDetailsService {
         String[] arr = new String[list.size()];
         list.toArray(arr);
         String prinple = JSON.toJSONString(userAmin);
+        //封装UserDetails
         UserDetails user = User.withUsername(prinple).password(userAmin.getPassword()).authorities(arr).build();
         return user;
     }

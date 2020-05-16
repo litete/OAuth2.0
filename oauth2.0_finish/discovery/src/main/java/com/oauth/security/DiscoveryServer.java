@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * @ClassName DiscoveryServer
  * @Description 注册中心
- * @Author 戴书博
+ * @Author Zesysterm
  * @Date 2020/5/11 14:40
  * @Version 1.0
  **/

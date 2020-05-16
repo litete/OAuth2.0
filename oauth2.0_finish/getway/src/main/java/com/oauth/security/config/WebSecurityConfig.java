@@ -6,8 +6,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 /**
  * @ClassName WebSecurityConfig
- * @Description
- * @Author
+ * @Description 网关的服务安全配置
+ * @Author Zesysterm
  * @Date 2020/5/11 21:50
  * @Version 1.0
  **/

@@ -5,7 +5,7 @@ import com.oauth.security.entity.UserAdmin;
 
 /**
  * @ClassName IUserService
- * @Description
+ * @Description 用户服务接口
  * @Author Zesysterm
  * @Date 2020/5/4 10:37
  * @Version 1.0

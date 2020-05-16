@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * @ClassName OrderServer
  * @Description
- * @Author 戴书博
+ * @Author Zesysterm
  * @Date 2020/5/9 21:11
  * @Version 1.0
  **/

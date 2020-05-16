@@ -7,8 +7,8 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * @ClassName GatewayServer
- * @Description 网关
- * @Author
+ * @Description 网关服务启动类
+ * @Author Zesysterm
  * @Date 2020/5/11 14:41
  * @Version 1.0
  **/

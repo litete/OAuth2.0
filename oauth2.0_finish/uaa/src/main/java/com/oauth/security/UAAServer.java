@@ -9,8 +9,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @ClassName UAAServer
- * @Description UAA服务启动类
- * @Author 戴书博
+ * @Description 授权服务启动类
+ * @Author Zesysterm
  * @Date 2020/5/9 20:56
  * @Version 1.0
  **/

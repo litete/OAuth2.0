@@ -11,8 +11,8 @@ import java.util.List;
 
 /**
  * @ClassName UserServiceImpl
- * @Description
- * @Author 戴书博
+ * @Description 查询用户信息Service
+ * @Author Zesysterm
  * @Date 2020/5/4 10:38
  * @Version 1.0
  **/

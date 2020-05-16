@@ -12,8 +12,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * @ClassName WebSecurityConfig
- * @Description
- * @Author 戴书博
+ * @Description 配置安全拦截机制。
+ * @Author Zesysterm
  * @Date 2020/5/10 9:07
  * @Version 1.0
  **/
@@ -21,21 +21,24 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
-     * （4）配置认证管理器
+     * 配置认证管理器
      */
+    @Override
     @Bean
     public AuthenticationManager authenticationManager() throws Exception {
         return super.authenticationManager();
     }
 
-    //密码编码器
+    /**
+     * 配置密码编码器
+     */
     @Bean
     public PasswordEncoder passwordEncoder(){
         return NoOpPasswordEncoder.getInstance();
     }
 
     /**
-     * （4）安全拦截机制
+     * 安全拦截机制
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {

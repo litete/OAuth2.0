@@ -17,28 +17,40 @@ import java.util.Map;
 
 /**
  * @ClassName AuthFilter
- * @Description
- * @Author 戴书博
+ * @Description 验证之后，转发明文的token给其他资源服务器。
+ * @Author Zesysterm
  * @Date 2020/5/11 22:04
  * @Version 1.0
  **/
 public class AuthFilter extends ZuulFilter {
 
+    /**
+     * 配置是否拦截
+     */
     @Override
     public boolean shouldFilter() {
         return true;
     }
 
+    /**
+     * 请求之前
+     */
     @Override
     public String filterType() {
         return "pre";
     }
 
+    /**
+     * 设置优先级
+     */
     @Override
     public int filterOrder() {
         return 0;
     }
 
+    /**
+     * 执行程序
+     */
     @Override
     public Object run() throws ZuulException {
         RequestContext ctx = RequestContext.getCurrentContext();

@@ -22,14 +22,13 @@ import java.util.List;
 
 /**
  * @ClassName TokenAuthenticationFilter
- * @Description
- * @Author
+ * @Description 资源服务获取j数据并且解析，填充到上下文。
+ * @Author Zesysterm
  * @Date 2020/5/12 8:28
  * @Version 1.0
  **/
 @Component
 public class TokenAuthenticationFilter extends OncePerRequestFilter {
-
 
     @Override
     protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {

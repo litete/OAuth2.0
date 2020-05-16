@@ -5,8 +5,8 @@ import lombok.Data;
 
 /**
  * @ClassName Permission
- * @Description
- * @Author 戴书博
+ * @Description 权限实体类
+ * @Author Zesysterm
  * @Date 2020/5/4 14:23
  * @Version 1.0
  **/
